@@ -1,10 +1,1 @@
-@"
-export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: { extend: {} },
-  plugins: [],
-}
-"@ | Out-File -FilePath tailwind.config.js -Encoding utf8
+export default { content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"], theme: { extend: {} }, plugins: [] }
